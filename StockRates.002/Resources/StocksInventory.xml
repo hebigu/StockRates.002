@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Stocks>
+  <Stock>
+    <Name>Societe Generale</Name>
+    <StockCode>GLE.PA</StockCode>
+    <Currency>EUR</Currency>
+    <Number>577</Number>
+  </Stock>
+  <Stock>
+    <Name>TDC</Name>
+    <StockCode>TDC.CO</StockCode>
+    <Currency>DKK</Currency>
+    <Number>15</Number>
+  </Stock>
+  <Stock>
+    <Name>Nordea</Name>
+    <StockCode>NDA-DKK.CO</StockCode>
+    <Currency>DKK</Currency>
+    <Number>420</Number>
+  </Stock>
+  <Stock>
+    <Name>Novo Nordisk B</Name>
+    <StockCode>NOVO-B.CO</StockCode>
+    <Currency>DKK</Currency>
+    <Number>25</Number>
+  </Stock>
+  <Stock>
+    <Name>Genmab</Name>
+    <StockCode>GEN.CO</StockCode>
+    <Currency>DKK</Currency>
+    <Number>11</Number>
+  </Stock>
+  <Stock>
+    <Name>NovoZymes B</Name>
+    <StockCode>NZYM-B.CO</StockCode>
+    <Currency>DKK</Currency>
+    <Number>30</Number>
+  </Stock>
+  <Stock>
+    <Name>ISS</Name>
+    <StockCode>ISS.CO</StockCode>
+    <Currency>DKK</Currency>
+    <Number>10</Number>
+  </Stock>
+  <Stock>
+    <Name>Mærsk A</Name>
+    <StockCode>MAERSK-A.CO</StockCode>
+    <Currency>DKK</Currency>
+    <Number>1</Number>
+  </Stock>
+  <Stock>
+    <Name>Mærsk B</Name>
+    <StockCode>MAERSK-B.CO</StockCode>
+    <Currency>DKK</Currency>
+    <Number>1</Number>
+  </Stock>
+  <Stock>
+    <Name>Coloplast B</Name>
+    <StockCode>COLO-B.CO</StockCode>
+    <Currency>DKK</Currency>
+    <Number>4</Number>
+  </Stock>
+  <Stock>
+    <Name>William Demant Holding A/S</Name>
+    <StockCode>WDH.CO</StockCode>
+    <Currency>DKK</Currency>
+    <Number>40</Number>
+  </Stock>
+  <Stock>
+    <Name>Christian Hansen Holding</Name>
+    <StockCode>CHR.CO</StockCode>
+    <Currency>DKK</Currency>
+    <Number>12</Number>
+  </Stock>
+  <Stock>
+    <Name>Carlsberg</Name>
+    <StockCode>CARL-B.CO</StockCode>
+    <Currency>DKK</Currency>
+    <Number>15</Number>
+  </Stock>
+  <Stock>
+    <Name>GN Store Nord</Name>
+    <StockCode>GN.CO</StockCode>
+    <Currency>DKK</Currency>
+    <Number>74</Number>
+  </Stock>
+  <Stock>
+    <Name>Vestas Wind Systems A/S</Name>
+    <StockCode>VWS.CO</StockCode>
+    <Currency>DKK</Currency>
+    <Number>22</Number>
+  </Stock>
+    <Stock>
+    <Name>H. Lundbeck</Name>
+    <StockCode>LUN.CO</StockCode>
+    <Currency>DKK</Currency>
+    <Number>11</Number>
+  </Stock>
+</Stocks>
