@@ -1,0 +1,28 @@
+<?php die("Access Denied"); ?>#x#a:5:{s:4:"body";s:3740:"<div class="item-page" itemscope itemtype="http://schema.org/Article">
+	<meta itemprop="inLanguage" content="da-DK" />
+									
+
+<div class="icons pull-right">
+                            <ul>
+                                    <li class="print-icon"> <a href="/index.php/arkiv/84-aktiviteter-i-tilsluttede-organisationer/223-bryd-tavsheden-stop-volden?tmpl=component&amp;print=1&amp;page=" title="Udskriv" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">Udskriv</a> </li>
+                                                    <li class="email-icon"> <a href="/index.php/component/mailto/?tmpl=component&amp;template=protostar&amp;link=b16a5fb734de6a12d0fe708511b2c64e6d49f7bd" title="E-mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;">E-mail</a> </li>
+                                            </ul>
+     
+</div> 
+			
+	
+	
+		
+						<div itemprop="articleBody">
+		<p>Den 8. mart<img style="float: right;" alt="manu-taler02 239x159" src="images/manu-taler02_239x159.jpg" />s 2013 inviterede ligestillingsminister Manu Sareen, i Tivoli Congress Center, til en konference om mænds vold mod kvinder.(programmet har tidl. været omtalt på denne hjemmeside). Fra KLF deltog Vibeke&nbsp;Jørgensen, Mehrmaz Akbari og undertegnede. En meget engageret Manu Sareen, som netop var kommet tilbage fra New York, hvor han havde deltaget i FN´s Kvindekommissionsdrøftelse om bekæmpelse af vold mod kvinder, delagtiggjorde os i de erfaringer, han havde høstet der. Ifølge FN udsættes op til 70% af kvinder verden over for almindelig fysisk- eller seksuel vold i løbet af deres liv. For kvinder mellem 15 og 44 år er vold den hyppigste dødsårsag, idet den langt overgår summen af andre dødsårsager så som kræft, malaria, død i forbindelse med graviditet og fødsel og trafikulykker. Den danske regering vil gå forrest for at komme vold mod kvinder til livs, da vi allerede har, og er kendt for at have, en del gode erfaringer i bekæmpelse af vold mod kvinder. Vi har blandt andet haft succes med at bryde Tavsheden omkring Vold i Hjemmet . Som bekendt har KLF, som nogen af de første været på banen her i landet bl.a. med et seminar i 1981 (jvnf. vort sidste møde på Danner i jan. 2013).</p>
+<p>Hovedtaleren på Konferencen var canadieren Michael Kaufman, stifter af White Ribbon Campaign. Han fortalte meget medrivende, hvordan han og en lille gruppe mænd for 21 år siden startede denne kampagne, hvordan ideen har spredt sig over hele jorden og om de erfaringer, der er gjort med en succesfuld inddragelse af mænd og drenge i kampen mod vold mod kvinder. Man kan læse mere herom på:&nbsp;<a href="http://www.michaelkaufman.com/" style="color: #1b57b1; font-weight: normal; text-decoration: none;">www.michaelkaufman.com</a></p>
+<p>Konferencen sluttede med et stiftende møde af netværket White Ribbon i Danmark. Her fortalte skuespiller Peter Mygind meget gribende, hvorfor han har engageret sig imod vold mod kvinder. Der var stor tilslutning fra salen til at være med i en styregruppe med Peter Mygind som ”Tovholder”. Vi andre meldte os naturligvis som støttemedlemmer. Det er vigtigt at være med til at skabe opmærksomhed om emnet og derved bidrage til en holdningsændring i befolkningen.</p>
+<p>Der foreligger ikke i skrivende stund yderligere informationer omkring netværket/foreningen White Ribbon, men I vil blive underrettet, når jeg hører nærmere, idet jeg synes, det er en vigtig sag at støtte op om.</p>
+<p>Hellerup d. 2. april 2013</p>
+<p>Agnete Basbøll</p>	</div>
+
+	
+								 </div>
+";s:4:"head";a:11:{s:5:"title";s:66:"DANSKE KVINDELIGE LÆGERS FORENING - Bryd Tavsheden - Stop Volden!";s:11:"description";s:109:"Danish Female Doctors Association (KLF) is a professional association for female doctors and medical students";s:4:"link";s:0:"";s:8:"metaTags";a:2:{s:10:"http-equiv";a:1:{s:12:"content-type";s:24:"text/html; charset=utf-8";}s:8:"standard";a:2:{s:8:"keywords";s:185:"Kvindelige læger  association works for female doctors gender equality, economic and buisness and acts as a network for female physicians across specialties and across national borders";s:6:"rights";s:3:"KLF";}}s:5:"links";a:1:{s:121:"http://www.kvindeligelaeger.dk/index.php/arkiv/84-aktiviteter-i-tilsluttede-organisationer/223-bryd-tavsheden-stop-volden";a:3:{s:8:"relation";s:9:"canonical";s:7:"relType";s:3:"rel";s:7:"attribs";a:0:{}}}s:11:"styleSheets";a:0:{}s:5:"style";a:0:{}s:7:"scripts";a:4:{s:27:"/media/jui/js/jquery.min.js";a:3:{s:4:"mime";s:15:"text/javascript";s:5:"defer";b:0;s:5:"async";b:0;}s:34:"/media/jui/js/jquery-noconflict.js";a:3:{s:4:"mime";s:15:"text/javascript";s:5:"defer";b:0;s:5:"async";b:0;}s:35:"/media/jui/js/jquery-migrate.min.js";a:3:{s:4:"mime";s:15:"text/javascript";s:5:"defer";b:0;s:5:"async";b:0;}s:27:"/media/system/js/caption.js";a:3:{s:4:"mime";s:15:"text/javascript";s:5:"defer";b:0;s:5:"async";b:0;}}s:6:"script";a:1:{s:15:"text/javascript";s:79:"jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});";}s:6:"custom";a:0:{}s:10:"scriptText";a:0:{}}s:13:"mime_encoding";s:9:"text/html";s:7:"pathway";a:3:{i:0;O:8:"stdClass":2:{s:4:"name";s:8:"Artikler";s:4:"link";s:20:"index.php?Itemid=579";}i:1;O:8:"stdClass":2:{s:4:"name";s:40:"Aktiviteter i tilsluttede organisationer";s:4:"link";s:59:"index.php?option=com_content&view=category&id=84&Itemid=579";}i:2;O:8:"stdClass":2:{s:4:"name";s:29:"Bryd Tavsheden - Stop Volden!";s:4:"link";s:0:"";}}s:6:"module";a:0:{}}

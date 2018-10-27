@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <title>BigumSoft</title>
+  <meta http-equiv="refresh" content="420">
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="../text/html; charset=UTF-8" />
+  <!-- stylesheets -->
+  <link href="../css/style.css" rel="stylesheet" type="text/css" />
+  <link href="../css/colour.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="../js/modernizr-1.5.min.js"></script>
+  
+  <script type="text/javascript">
+	
+	function getParam(){
+		var idx = document.URL.indexOf('?');
+		var params = new Array();
+		var param;
+		if (idx != -1) {
+			var pairs = document.URL.substring(idx+1, document.URL.length).split('&');
+			for (var i=0; i<pairs.length; i++){
+				nameVal = pairs[i].split('=');
+				params[nameVal[0]] = nameVal[1];
+				param = nameVal[1];
+			}
+		}
+		else
+		{
+			param = 'Consolidated';
+		}
+		return param;
+	}
+	  
+  </script>
+  
+</head>
+
+<body>
+  <div id="main">
+
+    <!-- begin header -->
+    <header>
+      <div id="logo"><h1>Bigum<a href="#">Soft</a></h1></div>
+      <nav>
+        <ul class="sf-menu" id="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About us</a></li>
+		  <li><a href="prices.html">Prices</a></li>
+		  <li><a href="references.html">References</a></li>
+          <li><a href="contact.html">Contact</a></li>
+		  <li><a>Demo</a>
+			 <ul>
+	            <li><a href="../Test/OnlineStore/index.php">Shop</a></li>
+				<li><a href="../quindoc">CMS site</a></li>
+			</ul>
+		  </li>
+		  <li><a>Stock inv</a>		  
+		  	<ul>
+	            <?php require_once('ShowStocksMenu.php');?>
+			</ul>
+		  </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- end header -->
+
+	<!-- begin content -->
+    <div id="site_content_graph">
+      <div>		
+		<!-- <script language="javascript">document.write("<H3> Aktier " + getParam() + " " + "</H3>");</script> -->					
+		<script language="javascript">document.write("<img src='StockPortFolio.php?param=" + getParam()  + "'/>");</script>		
+      </div>
+    </div>
+    <!-- end content -->
+
+	<!-- begin footer -->
+    <footer>
+		<a href="../da/StockPortFolio.html"> <img src="../images/dk30x30.png" alt="Danish">  </a> <a href="../en/StockPortFolio.html"> <img src="../images/uk30x30.png" alt="English" > </a> 
+    </footer>
+    <!-- end footer -->
+	
+  </div>
+ </body>
+</html>
+
+

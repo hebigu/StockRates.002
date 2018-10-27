@@ -1,0 +1,21 @@
+<?php die("Access Denied"); ?>#x#a:5:{s:4:"body";s:1661:"<div class="item-page" itemscope itemtype="http://schema.org/Article">
+	<meta itemprop="inLanguage" content="da-DK" />
+				<div id="pop-print" class="btn hidden-print">
+			<a href="#" onclick="window.print();return false;">Udskriv</a>		</div>
+		<div class="clearfix"> </div>
+						
+	
+	
+		
+						<div itemprop="articleBody">
+		<p>Arrangeret af Udenrigsministeriet, Kvindernes U-landsudvalg (KULU) og Kvinderådet.</p>
+<p>På mødet blev et Danida-finansieret forskningsprojekt om staternes forpligtelse til bekæmpelse af vold fremlagt (Due Diligence and State Responsibility in Relation to Violence Against Women: Standart, Indicators and Good Practice).</p>
+<p>Fremlæggelsen blev præsenteret over Skype direkte fra FN. Forskerne præsenterede nogle principper gældende for alle stater i deres lovgivende arbejde for vold mod kvinder: Prevention, Protection, Prosecution and Investigation, Punishment and Provision of Redress and Reparation. De konkluderede, at dette var muligt at implementere i alle stater, dog ikke uden et samarbejde med civilsamfundet.</p>
+<p>Derefter blev forsamlingen præsenteret for en ny udarbejdelse af Strategic Framework for gender Equality and Women’s Rights in Danish Development Corporation. De henførte dog primært til dokumenter som kan findes på Danida’s hjemmeside-under nye dokumenter.</p>
+<p>Til sidst fortalte Janice Førde (KULU) og Randi Iversen (Kvinderådet), som var de danske repræsentanter ved FN’s kvindekommision i New-York, 2013, om deres oplevelser &nbsp;og KULU inviterede til at kommentere på deres forslag til den kommende kommission i New York i Marts 2014.</p>	</div>
+
+	
+								 </div>
+";s:4:"head";a:11:{s:5:"title";s:191:"DANSKE KVINDELIGE LÆGERS FORENING - Referat fra dialogmøde om Kvindekommissionens resultater og Danmarks rolle i det internationale ligestillingsarbejde - hvor står vi og hvor vil vi hen? ";s:11:"description";s:109:"Danish Female Doctors Association (KLF) is a professional association for female doctors and medical students";s:4:"link";s:0:"";s:8:"metaTags";a:2:{s:10:"http-equiv";a:1:{s:12:"content-type";s:24:"text/html; charset=utf-8";}s:8:"standard";a:3:{s:8:"keywords";s:185:"Kvindelige læger  association works for female doctors gender equality, economic and buisness and acts as a network for female physicians across specialties and across national borders";s:6:"rights";s:3:"KLF";s:6:"robots";s:17:"noindex, nofollow";}}s:5:"links";a:1:{s:280:"http://www.kvindeligelaeger.dk/index.php/arkiv/84-aktiviteter-i-tilsluttede-organisationer/219-referat-fra-dialogmode-om-kvindekommissionens-resultater-og-danmarks-rolle-i-det-internationale-ligestillingsarbejde-hvor-star-vi-og-hvor-vil-vi-hen?tmpl=component&amp;print=1&amp;page=";a:3:{s:8:"relation";s:9:"canonical";s:7:"relType";s:3:"rel";s:7:"attribs";a:0:{}}}s:11:"styleSheets";a:0:{}s:5:"style";a:0:{}s:7:"scripts";a:4:{s:27:"/media/jui/js/jquery.min.js";a:3:{s:4:"mime";s:15:"text/javascript";s:5:"defer";b:0;s:5:"async";b:0;}s:34:"/media/jui/js/jquery-noconflict.js";a:3:{s:4:"mime";s:15:"text/javascript";s:5:"defer";b:0;s:5:"async";b:0;}s:35:"/media/jui/js/jquery-migrate.min.js";a:3:{s:4:"mime";s:15:"text/javascript";s:5:"defer";b:0;s:5:"async";b:0;}s:27:"/media/system/js/caption.js";a:3:{s:4:"mime";s:15:"text/javascript";s:5:"defer";b:0;s:5:"async";b:0;}}s:6:"script";a:1:{s:15:"text/javascript";s:79:"jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});";}s:6:"custom";a:0:{}s:10:"scriptText";a:0:{}}s:13:"mime_encoding";s:9:"text/html";s:7:"pathway";a:3:{i:0;O:8:"stdClass":2:{s:4:"name";s:8:"Artikler";s:4:"link";s:20:"index.php?Itemid=579";}i:1;O:8:"stdClass":2:{s:4:"name";s:40:"Aktiviteter i tilsluttede organisationer";s:4:"link";s:59:"index.php?option=com_content&view=category&id=84&Itemid=579";}i:2;O:8:"stdClass":2:{s:4:"name";s:154:"Referat fra dialogmøde om Kvindekommissionens resultater og Danmarks rolle i det internationale ligestillingsarbejde - hvor står vi og hvor vil vi hen? ";s:4:"link";s:0:"";}}s:6:"module";a:0:{}}

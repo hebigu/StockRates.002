@@ -1,0 +1,35 @@
+<?php die("Access Denied"); ?>#x#a:5:{s:4:"body";s:5008:"<div class="item-page" itemscope itemtype="http://schema.org/Article">
+	<meta itemprop="inLanguage" content="da-DK" />
+									
+
+<div class="icons pull-right">
+                            <ul>
+                                    <li class="print-icon"> <a href="/index.php/arkiv/83-aktiviteter-i-mwia/192-referat-fra-den-29-internationale-kongres-for-mwia?tmpl=component&amp;print=1&amp;page=" title="Udskriv" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">Udskriv</a> </li>
+                                                    <li class="email-icon"> <a href="/index.php/component/mailto/?tmpl=component&amp;template=protostar&amp;link=1b99b08ee58fb0a093cf7a05eb2820bdc62bd808" title="E-mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;">E-mail</a> </li>
+                                            </ul>
+     
+</div> 
+			
+	
+	
+		
+						<div itemprop="articleBody">
+		<p>Den 29. internationale kongres for MWIA fandt som bekendt sted i Seoul, Korea fra d. 31. juli til den 3. august 2013. Fra Danmark deltog Agnete Basbøll, Kirsten Salado-Rasmussen, Margit Niebuhr-Jørgensen, Liselotte Petersen og Ruth Sinding. Der var godt 1100 deltagere, det største deltagerantal nogensinde, så vidt vi forstod. Der var sat alle sejl til for, at denne kongres skulle være en succes, og det blev den. Allerede program bogen, som lå i kongrestasken tydede på koreansk grundighed og omtanke, og det holdt hele vejen igennem.</p>
+<p><strong>Det sociale program</strong></p>
+<p>Ved velkomstreceptionen d. 31. juli fik vi lejlighed til at opleve traditionel koreansk musik i form af en fantastisk trommekoncert og herefter var der buffet med såvel international mad som koreanske specialiteter. Åbningsceremonier har jo som oftest udover et spektakulært præg også et opbud af taler og denne her i Seoul var særdeles righoldig på officielle taler; man fornemmede helt klart KMWAs betydning i den koreanske lægeverden. F.eks. Ligestillingsministerens tale, hvori hun påpegede MWIAs bestræbelser for at hjælpe lidende og udstødte mennesker, indeholdt i MWIAs motto:”MATRIS ANIMO CURANT” i.e. she heals with the spirit of a mother.</p>
+<p>Om aftenen var KWMA vært ved en meget flot middag, sponsoreret af Dr. Gil Ya Lee. Gallamiddagen næste aften bød på traditionel koreansk mad i luksusudgave og som underholdning var der mannequinopvisning - koreanske nationaldragter gennem tiderne. Et fejende flot show. Ved afslutningsceremonien d. 3. august var adskillige honoratiores tilstede, hvilket måske skyldtes glæde og stolthed over at MWIAs nye præsident er koreaner, nemlig Yung Ah Park - en karismatisk kvinde, som givet vis er et godt valg.</p>
+<p><strong>Den officielle del</strong></p>
+<p>Den officielle del af kongressen startede med møde mellem de nationale koordinators.&nbsp;Vi gennemgik hvor mange medlemmer de forskelige lande havde og deraf stemmeantal.</p>
+<p>Størstedelen af tiden gik med at beslutte hvordan den næste Pre-elect skulle vælges. Det skabte stor uenighed idet to kandidater var opstillet, begge fra Tyskland, den ene opstillet af den tyske kvindelige lægeforening og den anden opstillet af enkeltpersoner, som blev støttet af MWIA Executive. Vi danskere og den svenske forening fandt fremgangsmåden udemokratisk. Næste dag under General Assembly præsenteredes begge kandidater og man gennemgik resolutioner hvoraf nogle kunne godtages og andre udsættes.</p>
+<p>Ved den efterfølgende General Assembly blev den kommende Pre-elect valgt, og det bliver Bettina Pfleiderer, som ikke var opstillet af den tyske kvindelige lægeforening. Sverige havde en resolution som de gerne ville have godtaget, men dette kunne angivelig ikke nås (måske pga. mere kontroversielt indhold). Kinas kvindelige lægeforening blev optaget i MWIA under stor jubel.</p>
+<p>Ved den sidste General Assembly blev Dr. Yung Ah Park valgt som præsident og der uddeltes legater på 100 dollars, hvoraf danske Kirsten Salado-Rasmussen fik tildelt for bedste poster.</p>
+<p><strong>Det videnskabelige program</strong></p>
+<p>Der var lagt stor vægt på det videnskabelige program, som kørte i flere spor hver dag i løbet af kongressen. Temaet var bredt og spændte over emner som Gender in Medicine, Life as a Medical Woman, Pregnancy and Abortion og Update of Dermatology. Desuden var der flere internationale invited speakers og niveauet var højt. Kongressen havde fået tilsendt over 200 abstracts og flere af disse var udstillet som posters eller e-posters.</p>
+<p>Samlet set var kongressen en stor succes og utrolig velorganiseret. Sydkorea viste både sin gamle kultur og det nye samfund som en velintegreret symbiose. Den 30. MWIA-kongres vil blive afholdt i Wien i 2016.</p>
+<p>Agnete Basbøll, Margit Niebuhr og Kirsten Salado-Rasmussen</p>	</div>
+
+	
+								 </div>
+";s:4:"head";a:11:{s:5:"title";s:88:"DANSKE KVINDELIGE LÆGERS FORENING - Referat fra den 29. Internationale Kongres for MWIA";s:11:"description";s:109:"Danish Female Doctors Association (KLF) is a professional association for female doctors and medical students";s:4:"link";s:0:"";s:8:"metaTags";a:2:{s:10:"http-equiv";a:1:{s:12:"content-type";s:24:"text/html; charset=utf-8";}s:8:"standard";a:2:{s:8:"keywords";s:185:"Kvindelige læger  association works for female doctors gender equality, economic and buisness and acts as a network for female physicians across specialties and across national borders";s:6:"rights";s:3:"KLF";}}s:5:"links";a:1:{s:123:"http://www.kvindeligelaeger.dk/index.php/arkiv/83-aktiviteter-i-mwia/192-referat-fra-den-29-internationale-kongres-for-mwia";a:3:{s:8:"relation";s:9:"canonical";s:7:"relType";s:3:"rel";s:7:"attribs";a:0:{}}}s:11:"styleSheets";a:0:{}s:5:"style";a:0:{}s:7:"scripts";a:4:{s:27:"/media/jui/js/jquery.min.js";a:3:{s:4:"mime";s:15:"text/javascript";s:5:"defer";b:0;s:5:"async";b:0;}s:34:"/media/jui/js/jquery-noconflict.js";a:3:{s:4:"mime";s:15:"text/javascript";s:5:"defer";b:0;s:5:"async";b:0;}s:35:"/media/jui/js/jquery-migrate.min.js";a:3:{s:4:"mime";s:15:"text/javascript";s:5:"defer";b:0;s:5:"async";b:0;}s:27:"/media/system/js/caption.js";a:3:{s:4:"mime";s:15:"text/javascript";s:5:"defer";b:0;s:5:"async";b:0;}}s:6:"script";a:1:{s:15:"text/javascript";s:79:"jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});";}s:6:"custom";a:0:{}s:10:"scriptText";a:0:{}}s:13:"mime_encoding";s:9:"text/html";s:7:"pathway";a:3:{i:0;O:8:"stdClass":2:{s:4:"name";s:8:"Artikler";s:4:"link";s:20:"index.php?Itemid=579";}i:1;O:8:"stdClass":2:{s:4:"name";s:18:"Aktiviteter i MWIA";s:4:"link";s:59:"index.php?option=com_content&view=category&id=83&Itemid=579";}i:2;O:8:"stdClass":2:{s:4:"name";s:51:"Referat fra den 29. Internationale Kongres for MWIA";s:4:"link";s:0:"";}}s:6:"module";a:0:{}}

@@ -1,0 +1,32 @@
+<?php die("Access Denied"); ?>#x#a:5:{s:4:"body";s:4688:"<div class="item-page" itemscope itemtype="http://schema.org/Article">
+	<meta itemprop="inLanguage" content="da-DK" />
+									
+
+<div class="icons pull-right">
+                            <ul>
+                                    <li class="print-icon"> <a href="/index.php/arkiv/83-aktiviteter-i-mwia/205-2001-arsberetning-mwia?tmpl=component&amp;print=1&amp;page=" title="Udskriv" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">Udskriv</a> </li>
+                                                    <li class="email-icon"> <a href="/index.php/component/mailto/?tmpl=component&amp;template=protostar&amp;link=6c7dd195ae90346f3700c425906773a5e4dd2729" title="E-mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;">E-mail</a> </li>
+                                            </ul>
+     
+</div> 
+			
+	
+	
+		
+						<div itemprop="articleBody">
+		<p><strong>Medical Women’s International Association (MWIA)</strong> v. Vibeke Jørgensen, MWIA National Coordinator.</p>
+<p><strong>5. Marts mødtes repræsentanter for MWIA’s Nordeuropæiske Region her i Danmark </strong>for at drøfte hvem, der skulle opstilles til de forskellige poster ved MWIA’s internationale kongres i Sydney i april 2001. Vicepræsidenten for Regionen, Disa Lidman fra Sverige foreslog, at man slog de 3 europæiske regioner sammen til én. Man vil i første omgang at arbejde for et tættere samarbejde mellem de europæiske regioner blandt andet om kongresser.</p>
+<p>Vi fortsatte drøftelserne ved et nyt mindre regionalmøde den 26. august i forbindelse med Øresundssymposiet om <em>Misbrug i Ørestaden</em> den 25. august.<br />Det er planen, at repræsentanter for de 3 europæiske regioner skal mødes under kongressen i Sydney for at drøfte muligheden for et tættere samarbejde nærmere.</p>
+<p>Ved mødet i marts kom Disa Lidman også med et forslag om en bredere målsætning for MWIA. Organisationen skal aktivt modvirke kønsbetinget faglig diskrimination indenfor lægefaget. MWIA skal arbejde for lige adgang til sundhedssystemet og for styrkelse af kvinders stilling og bekæmpelse af diskrimination. Et resolutionsforslag til Generalforsamlingen i Sydney blev udarbejdet.</p>
+<p>Svenskerne fremsatte forslag om, at den afgåede præsident ikke skal fortsætte i Executiv Komiteeen som det er nedfældet i statutterne. Det vil spare penge og det skulle ikke være nødvendig af hensyn til kontinuiteten.</p>
+<p>Det blev også drøftet, at svenskerne kun betaler for 10 medlemmer selv om de har 2700 medlemmer. De angiver som grund at den svenske forening på en række områder er kritiske overfor MWIA, specielt på det økonomiske. De mener det vil være en lærestreg for MWIA men de bidrager derved til yderligere nedgang i indtægterne.</p>
+<p>Der var på MWIA Executiv mødet i april kritik af denne holdning, som også kan virke afsmittende på andre lande. Sverige har netop nu mulighed for at gøre deres indflydelse gældende, da vicepræsidenten for den Nordeuropæiske Region er fra Sverige og MWIA kassereren ligeledes.<br />Vi håber, at Sverige snarest bestemmer sig for at være fuldgyldigt medlem.</p>
+<p><strong>MWIA Executiv Møde i Køln 28. - 30. april.</strong> Man drøftede, hvorledes man kunne forbedre økonomien, bl. a. ved i højere grad at bruge elektronisk post og ved visse kontormæssige rationaliseringer. Ligeledes en restriktiv politik med hensyn til international repræsentation. På den anden side er det nødvendigt, at MWIA manifesterer sig, ikke kun ved de store internationale konferencer som WHO og Kvindekomissionens årlige møde i New York, men også ved andre møder at væsentlig interesse om kvinders helbred, vold mod kvinder etc.<br />Det blev foreslået, at de enkelte medlemsorganisationer skulle drøfte, hvad deres forventninger og ønsker er vedrørende MWIA.<br />Jeg deltog i mødet som rådgiver vedrørende international repræsentation, en funktion jeg har bestridt siden 1992. Mange ting er nu i en så god gænge, at man enedes om, at det ikke var nødvendig i fremtiden. Jeg afslutter mit arbejde i forbindelse med kongressen i Sydney 2001.</p>
+<p>Annemette Mygh og jeg repræsenterede MWIA ved det årlige <strong>WHO Regional Møde 11-14 september&nbsp;i København.</strong></p>
+<p>Jeg deltog i <strong>MWIA Regional kongres i Bangkok 30. november - 2 december</strong> om <strong>Family Health beyond Year 2000 - our society gain.</strong> En udmærket kongres med mange gode indlæg.</p>	</div>
+
+	
+								 </div>
+";s:4:"head";a:11:{s:5:"title";s:61:"DANSKE KVINDELIGE LÆGERS FORENING - 2001: Årsberetning MWIA";s:11:"description";s:109:"Danish Female Doctors Association (KLF) is a professional association for female doctors and medical students";s:4:"link";s:0:"";s:8:"metaTags";a:2:{s:10:"http-equiv";a:1:{s:12:"content-type";s:24:"text/html; charset=utf-8";}s:8:"standard";a:2:{s:8:"keywords";s:185:"Kvindelige læger  association works for female doctors gender equality, economic and buisness and acts as a network for female physicians across specialties and across national borders";s:6:"rights";s:3:"KLF";}}s:5:"links";a:1:{s:95:"http://www.kvindeligelaeger.dk/index.php/arkiv/83-aktiviteter-i-mwia/205-2001-arsberetning-mwia";a:3:{s:8:"relation";s:9:"canonical";s:7:"relType";s:3:"rel";s:7:"attribs";a:0:{}}}s:11:"styleSheets";a:0:{}s:5:"style";a:0:{}s:7:"scripts";a:4:{s:27:"/media/jui/js/jquery.min.js";a:3:{s:4:"mime";s:15:"text/javascript";s:5:"defer";b:0;s:5:"async";b:0;}s:34:"/media/jui/js/jquery-noconflict.js";a:3:{s:4:"mime";s:15:"text/javascript";s:5:"defer";b:0;s:5:"async";b:0;}s:35:"/media/jui/js/jquery-migrate.min.js";a:3:{s:4:"mime";s:15:"text/javascript";s:5:"defer";b:0;s:5:"async";b:0;}s:27:"/media/system/js/caption.js";a:3:{s:4:"mime";s:15:"text/javascript";s:5:"defer";b:0;s:5:"async";b:0;}}s:6:"script";a:1:{s:15:"text/javascript";s:79:"jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});";}s:6:"custom";a:0:{}s:10:"scriptText";a:0:{}}s:13:"mime_encoding";s:9:"text/html";s:7:"pathway";a:3:{i:0;O:8:"stdClass":2:{s:4:"name";s:8:"Artikler";s:4:"link";s:20:"index.php?Itemid=579";}i:1;O:8:"stdClass":2:{s:4:"name";s:18:"Aktiviteter i MWIA";s:4:"link";s:59:"index.php?option=com_content&view=category&id=83&Itemid=579";}i:2;O:8:"stdClass":2:{s:4:"name";s:24:"2001: Årsberetning MWIA";s:4:"link";s:0:"";}}s:6:"module";a:0:{}}

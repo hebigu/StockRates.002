@@ -1,0 +1,200 @@
+/**
+ * Joomla! component Creative Contact Form
+ *
+ * @version $Id: 2012-04-05 14:30:25 svn $
+ * @author creative-solutions.net
+ * @package Creative Contact Form
+ * @subpackage com_creativecontactform
+ * @license GNU/GPL
+ *
+ */
+.creativecontactform_wrapper.creative_contact_module {
+	width: 100% !important;
+}
+.creative_contact_module .creativecontactform_title {
+	font-size: 22px !important;
+	font-weight: normal !important;
+}
+.creativecontactform_wrapper {
+	width: 98%;
+	margin: 15px auto;
+	padding: 0 !important;
+	position: relative !important;
+	float: none !important;
+	
+	-webkit-transition:  background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+	-moz-transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+	-o-transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+	transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+}
+
+
+.creativecontactform_pre_text {
+	line-height: 15px !important;
+}
+
+.creativecontactus_field_name {
+	display: block !important;
+	float: none !important;
+}
+
+.creativecontactform_wrapper_inner {
+	position: relative !important;
+}
+
+.creativecontactform_form {
+	display: block !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.creativecontactform_title {
+	margin: 0 0 0 0 !important;
+	font-family: inherit !important;
+	padding: 0 !important;
+	line-height: 25px !important;
+}
+.creativecontactform_send,.creativecontactform_send_new {
+	cursor: pointer !important;
+	outline: none !important;
+	height: auto !important;
+	width: auto !important;
+	line-height: 15px !important;
+
+	-webkit-transition:  background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+	-moz-transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+	-o-transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+	transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+}
+
+.creativecontactform_field_box {
+	margin: 0 0 10px 0 !important;
+	padding: 0 !important;
+}
+.creative_contact_module .creativecontactform_field_box {
+	margin: 0 0 5px 0 !important;
+}
+
+.creativecontactform_field_name {
+	display: block !important;
+	padding: 0 !important;
+	float: none !important;
+}
+.creativecontactform_submit_wrapper {
+	position: relative;
+}
+.creative_contact_module .creativecontactform_send,
+.creative_contact_module .creativecontactform_send_new {
+	padding: 5px 15px !important;
+}
+.creativecontactform_clear {
+	background: none !important;
+	border: 0 !important;
+	clear: both !important;
+	display: block !important;
+	float: none !important;
+	font-size: 0 !important;
+	list-style: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	overflow: hidden !important;
+	visibility: hidden !important;
+	width: 0 !important;
+	height: 0 !important;
+}
+
+.creativecontactform_loading_wrapper {
+	position: absolute !important;
+	top: 0 !important;
+	left: 0 !important;
+	bottom: 0 !important;
+	right: 0 !important;
+	display: none;
+	z-index: 100 !important;
+
+	background-color: #fff !important;
+}
+
+.creative_title_holder {
+	clear: both !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	height: 10px !important;
+}
+
+/********************************************************************************************************************INPUT RULES************************************************************************************************************************ */
+.creative_input_reset {
+	display: block !important;
+	width: auto !important;
+	height: 18px !important;
+	border: none !important;
+	background: none !important;
+	margin: 0 !important;
+	padding: 0  !important;
+	outline: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	width: 100% !important;
+
+	box-sizing:border-box !important;
+	-moz-box-sizing:border-box !important; /* Firefox */
+	-webkit-box-sizing:border-box !important;
+}
+/*inputs  width and height control ************************************** */
+.creativecontactform_input_element {
+	height: 27px;
+	position: relative !important;
+	display: block !important;
+
+	-webkit-transition:  background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+	-moz-transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+	-o-transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+	transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+}
+.creative_contact_module .creativecontactform_input_element {
+	width: auto !important;
+	margin: 0 5px 5px 0 !important;
+}
+
+/************************************************************************ */
+.creative_input_dummy_wrapper {
+	position: relative;
+	padding: 3px 8px 0px 8px;
+}
+
+.creative_textarea_reset {
+	display: block !important;
+	float: none !important;
+	background-image: none !important;
+	width: 100% !important;
+	border: none !important;
+	background: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	outline: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+
+	box-sizing:border-box !important;
+	-moz-box-sizing:border-box !important; /* Firefox */
+	-webkit-box-sizing:border-box !important;
+}
+/*TEXT area width. height control *********************************************************************************************************************************************** */
+.creative_textarea_wrapper {
+	/*width: 95% !important;
+	height: 150px !important;*/
+}
+.creative_textarea {
+	resize: none !important;
+	height: 90%;
+}
+
+.creativecontactform_submit_wrapper {
+}
+/************************************************************************************************************************************************* */
+.creative_textarea_dummy_wrapper {
+	padding: 5px 8px 8px 8px !important;
+	position: relative !important;
+	height: 100%;
+}

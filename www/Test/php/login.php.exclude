@@ -1,0 +1,69 @@
+<?php
+         session_start();
+
+         // filter incoming values
+         $username = (isset($_POST['username'])) ? trim($_POST['username']) : '';
+         $password = (isset($_POST['password'])) ? $_POST['password'] : '';
+         $redirect = (isset($_REQUEST['redirect'])) ? $_REQUEST['redirect'] :
+         'main.php';
+
+         if (isset($_POST['submit'])) {
+
+         if (!isset($_SESSION['logged']) || $_SESSION['logged'] != 1) {
+
+         if (!empty($_POST['username']) && $_POST['username'] == 'wroxbooks' &&
+         !empty($_POST['password']) && $_POST['password'] == 'aregreat') {
+           $_SESSION['username'] = $username;
+           $_SESSION['logged'] = 1;
+           header ('Refresh: 5; URL=' . $redirect);
+           echo '<p>You will be redirected to your original page
+           request.</p>';
+           echo '<p>If your browser doesn\'t redirect you properly ' .
+           'automatically, <a href="' . $redirect . '">
+           click here</a>.</p> ';
+           die();
+          } 
+          else 
+          {
+           // set these explicitly just to make sure
+           $_SESSION['username'] = '';
+           $_SESSION['logged'] = 0;
+
+           $error = '<p><strong>You have supplied an invalid username 
+           and/or ' .
+           'password!</strong> Please <a href="register.php"> click here ' . 
+            'to register</a> if you have not done so already.</p>';
+ }
+ }
+ }
+ ?>
+ <html>
+ <head>
+ <title>Login</title>
+ </head>
+ <body>
+ <?php
+ if (isset($error)) {
+ echo $error;
+ }
+ ?>
+ <form action="login.php" method="post">
+ <table>
+ <tr>
+ <td>Username:</td>
+ <td><input type="text" name="username" maxlength="20" size="20"
+ value="<?php echo $username; ?>"/></td>
+ </tr><tr>
+ <td>Password:</td>
+ <td><input type="password" name="password" maxlength="20" size="20"
+ value="<?php echo $password; ?>"/></td>
+ </tr><tr>
+ <td> </td>
+ <td>
+ <input type="hidden" name="redirect" value="<?php echo $redirect ?>"/>
+ <input type="submit" name="submit" value="Login"/>
+ </tr>
+ </table>
+ </form>
+ </body>
+ </html>

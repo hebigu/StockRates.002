@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+	<name>JE EventCalendar</name>
+	<creationDate>18/11/2009</creationDate>
+	<author>Hardik Mistry</author>
+	<authorEmail>emailtohardik@gmail.com</authorEmail>
+	<authorUrl>www.joomlaextensions.co.in</authorUrl>
+	<copyright>Copyright (C) 2009 - 2010 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<version>1.4</version>
+	<description>JE EventCalendar</description>
+	
+	<installfile>install.jeeventcalendar.php</installfile>
+	<uninstallfile>uninstall.jeeventcalendar.php</uninstallfile>
+    <scriptfile>script.jeeventcalendar.php</scriptfile>
+	
+	<installfile>install.jeeventcalendar.php</installfile>
+	<uninstallfile>uninstall.jeeventcalendar.php</uninstallfile>
+	<scriptfile>script.jeeventcalendar.php</scriptfile>
+	<!-- SQL queries -->
+	<install>
+		<sql>
+			<file driver="mysqli" charset="utf8">install.mysql.utf8.sql</file>
+			<file driver="mysql" charset="utf8">install.mysql.utf8.sql</file>
+		</sql>
+	</install>
+	<!-- Uninstall SQL queries -->
+	<uninstall>
+		<sql>
+		<file driver="mysqli" charset="utf8">uninstall.mysql.utf8.sql</file>
+		<file driver="mysql" charset="utf8">uninstall.mysql.utf8.sql</file>
+		</sql>
+	</uninstall>
+	
+	<files folder="components/com_jeeventcalendar">
+		<filename>index.html</filename>
+			
+		<filename>jeeventcalendar.php</filename>			
+		<folder>assets</folder>	
+		<folder>controllers</folder>
+		<folder>models</folder>
+		<folder>views</folder>
+
+	</files>
+	
+	<languages folder="language/en-GB">
+		<language tag="en-GB">en-GB.com_jeeventcalendar.ini</language>
+	 
+	</languages>
+	
+	
+	
+	<administration>
+	<menu  task="home">JE EvenetCalender</menu>
+	<menu  link="option=com_jeeventcalendar&amp;view=home">JE jeeventcalendar</menu>
+	<submenu>
+		
+		<menu  link="option=com_jeeventcalendar&amp;view=category">Category</menu>
+		<menu  link="option=com_jeeventcalendar&amp;view=event">event</menu>
+		<menu  link="option=com_jeeventcalendar&amp;view=event_configration">event configration</menu>
+		 
+	
+	</submenu>
+	
+	
+	<!-- Core files admin -->
+	<files folder="administrator/components/com_jeeventcalendar">		 		
+		<filename>jeeventcalendar.php</filename>
+		<filename>index.html</filename>
+		<filename>controller.php</filename>
+		<filename>install.mysql.utf8.sql</filename>
+		<filename>uninstall.mysql.utf8.sql</filename>
+		<filename>readme.html</filename>
+		<folder>controllers</folder>
+		<!--<folder>elements</folder>-->
+		<folder>models</folder>
+		<folder>tables</folder>
+		<folder>views</folder>
+		<folder>assets</folder>
+	</files>
+	<!-- Language files -->
+	<languages folder="administrator/language/en-GB">
+		<language tag="en-GB">en-GB.com_jeeventcalendar.ini</language>		
+	</languages>
+ 
+</administration>
+		
+ 
+</extension>

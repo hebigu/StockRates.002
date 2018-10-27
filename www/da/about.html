@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Bigumsoft</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="../text/html; charset=UTF-8" />
+  <!-- stylesheets -->
+  <link href="../css/style.css" rel="stylesheet" type="text/css" />
+  <link href="../css/colour.css" rel="stylesheet" type="text/css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="../js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+
+    <!-- begin header -->
+    <header>
+      <div id="logo"><h1>Bigum<a href="#">Soft</a></h1></div>
+      <nav>
+        <ul class="sf-menu" id="nav">
+          <li><a href="index.html">Hjem</a></li>
+          <li class="selected"><a href="about.html">Om os</a></li>
+		  <li><a href="prices.html">Priser</a></li>
+		  <li><a href="references.html">Referencer</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+		  <li><a>Demo</a>
+			 <ul>
+	            <li><a href="../Test/OnlineStore/index.php">Butik</a></li>
+				<li><a href="../quindoc">CMS site</a></li>
+			</ul>
+		  </li>
+		  <li><a>Aktie beholdning</a>
+			<ul>
+	            <!-- <li><a href="StockPortFolio.html">Konsolideret</a></li> -->
+				<?php require_once('ShowStocksMenu.php');?>
+			</ul>
+		  </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- end header -->
+
+    <!-- begin content -->
+    <div id="site_content">
+      <div id="left_content">
+        <h1>Om BigumSoft</h1>
+        <p>Ejet af Henrik Bigum.</p>
+		<p></p>
+		<p>Vi har udviklet </p>
+
+			<li>Biografløsning til håndtering af et næsten ubegrænset biografer</li>
+			<li>IT boghandel løsning</li>
+			<li>GPS sporing til at spore værdifulde genstande</li>
+			<li>Kombineret skak og chat program over nettet</li>
+			<li>MS SQL Server sikkerheds dokumentations løsning</li>
+			<li>Big Brother software til at rapportere eksekverbare programmer på en PC</li>
+			<li>Alarm skærm til at vise alarmer på mobile centraler</li>
+			<li>Kæde/hotel løsning</li>
+			<p>og meget meget mere</p>
+		<p></p>
+		<p>Termer som UML2 og UP er ikke fremmed tale for os, vi værdsætter OOA og OOD, men går ikke af vejen for funktionel programmering.</p>
+		<p>Vi er specialiseret i Microsoft SQL Server, Oracle, Sybase og Microsoft Access databaser, og udfører programmering i .NET (C# & VB.Net), men har også viden til at begå os i VBA, VBScript, Perl, PHP, Pascal og Cobol løsninger.</p>
+		<p>Firmaet har kendskab og viden i forskellige teknologier såsom ASP.NET (herunder MVC5), Web services, WCF, WPF, ADO.NET, Entity framework, TDD, TOD etc.</p>
+		<p>Konsulenterne kan navigere i OS som Windows til forskellige UNIX og Linux varianter.</p>
+		<p>Firmaet har viden til at håndtere projekt Management inkluderet Agil udvikling som f.eks. SCRUM.</p>
+		<p>Skulle de efterspørge et CMS system, kan vi også levere dette.</p>
+		<p>Vores honorarer er rimelige, vores motto er ikke at fakturere hvis kunden ikke er er tilfreds.</p>	
+		<p>Spørg efter et tilbud, vi tror ikke de vil fortryde.</p>		
+      </div>
+      <div id="right_content">
+        <img style="float: left;" src="../images/about.jpg" title="about me" alt="about me"/>
+      </div>
+    </div>
+    <!-- end content -->
+
+    <!-- begin footer -->
+    <footer>
+       <a href="../da/about.html"> <img src="../images/dk30x30.png" alt="Danish">  </a> <a href="../en/about.html"> <img src="../images/uk30x30.png" alt="English" > </a> 
+    </footer>
+    <!-- end footer -->
+
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="../js/jquery.sooperfish.js"></script>
+  <!-- initialise sooperfish menu -->
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
+</html>
