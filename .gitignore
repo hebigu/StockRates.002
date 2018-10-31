@@ -245,5 +245,5 @@ ModelManifest.xml
 configuration.php
 
 #C#
-app.config
-web.config
+App.config
+Web.config
