@@ -247,17 +247,17 @@ namespace StockRates._002.DLL
 
             DataLayer dataLayer = new DataLayer();
 
-            if (regularMarketPrice == null || regularMarketPrice == "-") //Vi kan ikke finde kursen
+            if (regularMarketPrice == null || regularMarketPrice == "-" || regularMarketPrice == string.Empty) //Vi kan ikke finde kursen
             {
                 if (!dataLayer.GetCanBeIgnored(stockName)) 
                 {
                     throw new Exception("Cannot find regularMarketPriceElement for " + stockName);
                 }
 
-                if (regularMarketPrice == "-")
-                {
+                //if (regularMarketPrice == "-")
+                //{
                     regularMarketPrice = "0";
-                }
+                //}
             }
             return regularMarketPrice;
         }

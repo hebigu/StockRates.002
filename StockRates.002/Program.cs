@@ -7,7 +7,7 @@ namespace StockRates._002
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(DateTime.Now +  " StockRates version 2.13.00");
+            Console.WriteLine(DateTime.Now +  " StockRates version 2.14.00");
             if (args.Length == 1)
             {
                 switch (args[0])
