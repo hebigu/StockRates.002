@@ -42,7 +42,7 @@ namespace StockRates._002.BLL
             return batchStocksValue;
         }
 
-        public static Boolean InventoryPortFolioDifferentFromCurrentPortFolioValue(List<Stock> stocksBase, List<Stock> stocksComp)
+        public static Boolean InventoryPortFolioDifferentFromCurrentPortFolioValue(List<Stock> stocksBase, List<Stock> stocksComp, Decimal marginValue = 0)
         {
             var inventoryPortFolioDifferentFromCurrentPortFolioValue = false;
 
@@ -50,7 +50,12 @@ namespace StockRates._002.BLL
 
             var compStocksValue = GetCalculatedBatchStocksValue(stocksComp);
 
-            var insertMarginValue = baseStocksValue * GetInsertMarginValue() / 100;
+            if (marginValue == 0)
+            {
+                marginValue = GetInsertMarginValue();
+            }
+
+            var insertMarginValue = baseStocksValue * marginValue / 100;
 
             //Console.WriteLine("Insert Margin is {0}", insertMarginValue);
 

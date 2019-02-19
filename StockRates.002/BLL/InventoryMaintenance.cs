@@ -7,7 +7,7 @@ namespace StockRates._002.BLL
 {
     class InventoryMaintenance
     {
-        public InventoryMaintenance()
+        public InventoryMaintenance(Decimal marginValue = 0)
         {
             var dataLayer = new DataLayer();
 
@@ -23,7 +23,7 @@ namespace StockRates._002.BLL
                 {
                     var compStocks = dataLayer.GetStocksInBatch(batchNo);
 
-                    if (compStocks.Any() && !InventoryHelper.InventoryPortFolioDifferentFromCurrentPortFolioValue(baseStocks, compStocks))
+                    if (compStocks.Any() && !InventoryHelper.InventoryPortFolioDifferentFromCurrentPortFolioValue(baseStocks, compStocks, marginValue))
                     {
                         Console.Write("-");
                         dataLayer.DeleteFromTable(batchNo);

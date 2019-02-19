@@ -7,13 +7,16 @@ namespace StockRates._002
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(DateTime.Now +  " StockRates version 2.14.00");
-            if (args.Length == 1)
+            Console.WriteLine(DateTime.Now +  " StockRates version 2.15.00");
+            if (args.Length >= 1)
             {
                 switch (args[0])
                 {
                     case "InventoryMaintenance":
-                        new InventoryMaintenance();
+                        if (args.Length > 1)
+                            new InventoryMaintenance(Convert.ToDecimal(args[1]));
+                        else
+                            new InventoryMaintenance();
                         break;
                     case "Replicate":
                         new Replicator();
