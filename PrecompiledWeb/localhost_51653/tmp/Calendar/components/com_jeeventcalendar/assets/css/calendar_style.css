@@ -1,0 +1,71 @@
+td {
+	font-family: "Trebuchet MS", Arial, Veranda, sans-serif;
+	padding: 3px;
+}
+
+#calback {
+	background: #FFF url('calWaiting.gif') no-repeat 50% 100px;
+	margin: 0 auto;
+	width: 350px;
+}
+
+#calendar {
+	width: 100%;
+	
+}
+
+.cal {
+	background: #000;
+	width: 550px; 
+	height:100px;
+}
+
+.calhead {
+	width: 100%;
+	font-weight: bold;
+	color: #FFF;
+	font-size: 20px;
+	      
+}
+
+.calhead img {
+	border: none;
+}
+
+.dayhead {
+	height: 45px;
+	background: #EEE;
+	width:550px;
+	
+}
+
+.dayhead td {
+	text-align: center;
+	color: #000;
+	width:78px;
+}
+
+.dayrow {
+	background: #FFF;
+	height: 75px;
+	width:550px;
+	
+}
+
+.dayrow td {
+width:78px;
+	color: #000;
+	font-size: 14px;
+}
+
+.day {
+	float: right;
+}
+
+.dayover {
+	background: #EEE;
+}
+
+.dayout {
+	background: #FFF;
+}

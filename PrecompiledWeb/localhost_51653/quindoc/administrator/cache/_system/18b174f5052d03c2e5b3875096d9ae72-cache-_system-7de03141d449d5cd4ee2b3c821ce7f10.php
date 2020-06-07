@@ -1,0 +1,1 @@
+<?php die("Access Denied"); ?>#x#a:2:{s:6:"output";s:0:"";s:6:"result";O:8:"stdClass":4:{s:2:"id";s:5:"10071";s:6:"option";s:10:"com_akeeba";s:6:"params";s:135:"{"siteurl":"http:\/\/kvindeligelaeger.dk\/","jlibrariesdir":"\/var\/www\/kvindeligelaeger.dk\/public_html\/libraries","jversion":"1.6"}";s:7:"enabled";s:1:"1";}}

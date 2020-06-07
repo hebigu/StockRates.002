@@ -1,0 +1,1 @@
+<?php die("Access Denied"); ?>#x#O:8:"stdClass":4:{s:8:"clickurl";s:48:"http://shop.joomla.org/amazoncom-bookstores.html";s:3:"cid";s:1:"3";s:12:"track_clicks";s:1:"0";s:19:"client_track_clicks";s:1:"0";}
