@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Threading;
 using StockRates._003.DLL;
 using StockRates._003.DLL.FileAbstractFactory;
 
@@ -97,37 +98,21 @@ namespace StockRates._003.BLL
 
                     if (currentBatchNumber > 0)
                     {
+                        Thread.Sleep(1000);
+
                         Console.WriteLine("Writing to database");
-
-                        foreach (Stock stockRate in stockRates)
+                           
+                        try
                         {
-                            if (stockRate.Rate > 0 && !stockRate.CanBeIgnored)
-                            {
-                                try
-                                {
-                                    Console.WriteLine("Writing " + stockRate.Name + " currency " + stockRate.CurrencyRate);
-                                    var count = dataLayer.InsertDataIntoDatabase(stockRate, currentBatchNumber);
+                            var count = dataLayer.InsertStocksIntoDatabase(stockRates, currentBatchNumber);
+                        }
+                        catch
+                        {
+                            Console.WriteLine("Something went wrong trying to write to database, deleting batch # {0}", currentBatchNumber);
 
-                                    if (count == 0)
-                                    {
-                                        break;
-                                    }
-                                }
-                                catch
-                                {
-                                    Console.WriteLine("Something went wrong trying to write to database stockname {0}", stockRate.Name);
+                            dataLayer.DeleteFromTable(currentBatchNumber);
 
-                                    Console.WriteLine("Deleting batch # {0}", currentBatchNumber);
-
-                                    dataLayer.DeleteFromTable(currentBatchNumber);
-
-                                    throw;
-                                }
-                            }
-                            else if (stockRate.Rate == 0 && !stockRate.CanBeIgnored)
-                            {
-                                throw new Exception("Stockrate is 0 for stockname " + stockRate.StockCode);
-                            }
+                            throw;
                         }
                     }
                     decimal batchValueAfterThisInsert = GetInventoryStockPortfolioValue(currentBatchNumber);
@@ -136,9 +121,10 @@ namespace StockRates._003.BLL
                     // Get amount of stock rates stored in database
                     var numberOfDifferentStocksStoredInLastBatchNoInDb = dataLayer.GetNumberOfDifferentStocksStoredInLastBatchNo();
 
-                    if (!RealisticValueCaptured(batchValueBeforeThisInsert, batchValueAfterThisInsert))
-                    {
+                    bool bypassMaxDeviation = ConfigurationManager.AppSettings["BypassMaxDeviation"] == "true" ? true : false;
 
+                    if (!RealisticValueCaptured(batchValueBeforeThisInsert, batchValueAfterThisInsert) && !bypassMaxDeviation)
+                    {
                         Console.WriteLine("We have som unrealistic value when fetching data, we should have max deviation of " + maxDeviationProcent + ", former value says " + batchValueBeforeThisInsert + ", now we have " + batchValueAfterThisInsert);
 
                         Console.WriteLine("Therefore deleting batchnumber " + currentBatchNumber + " from db");
@@ -161,6 +147,7 @@ namespace StockRates._003.BLL
             }
             finally
             {
+                Thread.Sleep(Convert.ToInt32(ConfigurationManager.AppSettings["Delay"]));
                 countInUse = UpdateControlInUse(inUse: false);
             }
         }

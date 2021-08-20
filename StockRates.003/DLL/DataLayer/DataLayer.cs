@@ -343,9 +343,6 @@ namespace StockRates._003.DLL
             return canBeIgnored;
         }
 
-
-
-
         public int InsertDataIntoDatabase(Stock stock, int batchNo, Boolean toBackup = false)
         {
             string connectionString = null;
@@ -372,7 +369,6 @@ namespace StockRates._003.DLL
             try
             {
                 command.Connection.Open();
-
                 count = command.ExecuteNonQuery();
             }
             catch (Exception e)
@@ -410,15 +406,24 @@ namespace StockRates._003.DLL
             int sumCount = 0;
             try
             {
+                command.Connection.Open();
+
                 foreach (Stock stock in stocks)
                 {
                     if (stock.Rate > 0 && !stock.CanBeIgnored)
                     {
                         command.CommandText = SqlBuilder.GetInsertStatement(stock, batchNo, toBackup);
-                        int count;
-                        command.Connection.Open();
+                        int count = 0;
                         count = command.ExecuteNonQuery();
+                        if (count == 0)
+                        {
+                            break;
+                        }
                         sumCount += count;
+                    }
+                    else if (stock.Rate == 0 && !stock.CanBeIgnored)
+                    {
+                        throw new Exception("Stockrate is 0 for stockname " + stock.StockCode);
                     }
                 }
             }
@@ -435,9 +440,6 @@ namespace StockRates._003.DLL
             }
             return sumCount;
         }
-
-
-
 
         public int DeleteFromTable(int batchNo)
         {
@@ -456,7 +458,6 @@ namespace StockRates._003.DLL
             try
             {
                 command.Connection.Open();
-
                 count = command.ExecuteNonQuery();
             }
             catch (Exception e)
@@ -483,7 +484,6 @@ namespace StockRates._003.DLL
             else
             {
                 connectionString = ConfigurationManager.ConnectionStrings["MySqlConn"].ConnectionString;
-
             }
             database.Connection = new MySqlConnection(connectionString);
 
@@ -518,7 +518,6 @@ namespace StockRates._003.DLL
             return count;
         }
 
-
         public int GetNumberOfStockItemsWhichCaneBeIgnored(Boolean fromBackup = false)
         {
             string connectionString = null;
@@ -529,7 +528,6 @@ namespace StockRates._003.DLL
             else
             {
                 connectionString = ConfigurationManager.ConnectionStrings["MySqlConn"].ConnectionString;
-
             }
             database.Connection = new MySqlConnection(connectionString);
 
@@ -544,11 +542,8 @@ namespace StockRates._003.DLL
             try
             {
                 command.Connection.Open();
-
                 reader = command.ExecuteReader();
-
                 count = reader.Read() ? reader.GetInt32(0) : -1;
-
             }
             catch (Exception e)
             {
@@ -589,9 +584,7 @@ namespace StockRates._003.DLL
             try
             {
                 command.Connection.Open();
-
                 reader = command.ExecuteReader();
-                               
                 rateCurrencyRates = DataLayerHelper.MapReaderToRateCurrencyRate(reader);
 
             }
@@ -606,7 +599,6 @@ namespace StockRates._003.DLL
                     command.Connection.Close();
                 }
             }
-
             return rateCurrencyRates;
         }
     }

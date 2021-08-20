@@ -1,0 +1,19 @@
+INSERT INTO `StockRates`.`StockRatesInventoryTransactionDetails` (`StockCode`, `Number`, `TotalTransactionAmount`, `BoughtSellCurrency`, `DateTime`, `Brokerage`) VALUES ('TRYG.CO', '-886', '157.7', 'DKK', '2021-08-03 01:01:01', '139');
+UPDATE `StockRates`.`StockDetails` SET `CanBeIgnored` = '1' WHERE (`Id` = '24');
+INSERT INTO `StockRates`.`StockRatesInventoryTransactionDetails` (`StockCode`, `Number`, `TotalTransactionAmount`, `BoughtSellCurrency`, `DateTime`, `Brokerage`) VALUES ('DEMANT.CO', '-225', '386.4', 'DKK', '2021-08-03 01:01:01', '87');
+UPDATE `StockRates`.`StockDetails` SET `CanBeIgnored` = '1' WHERE (`Id` = '11');
+INSERT INTO `StockRates`.`StockRatesInventoryTransactionDetails` (`StockCode`, `Number`, `TotalTransactionAmount`, `BoughtSellCurrency`, `DateTime`, `Brokerage`) VALUES ('BAVA.CO', '-102', '260.1', 'DKK', '2021-08-03 01:01:01', '29');
+UPDATE `StockRates`.`StockDetails` SET `CanBeIgnored` = '1' WHERE (`Id` = '19');
+INSERT INTO `StockRates`.`StockRatesInventoryTransactionDetails` (`StockCode`, `Number`, `TotalTransactionAmount`, `BoughtSellCurrency`, `DateTime`, `Brokerage`) VALUES ('CARL-B.CO', '-52', '1150', 'DKK', '2021-08-03 01:01:01', '59.80');
+UPDATE `StockRates`.`StockDetails` SET `CanBeIgnored` = '1' WHERE (`Id` = '13');
+INSERT INTO `StockRates`.`StockRatesInventoryTransactionDetails` (`StockCode`, `Number`, `TotalTransactionAmount`, `BoughtSellCurrency`, `DateTime`, `Brokerage`) VALUES ('GN.CO', '-61', '566.6', 'DKK', '2021-08-03 01:01:01', '34.70');
+UPDATE `StockRates`.`StockDetails` SET `CanBeIgnored` = '1' WHERE (`Id` = '14');
+INSERT INTO `StockRates`.`StockRatesInventoryTransactionDetails` (`StockCode`, `Number`, `TotalTransactionAmount`, `BoughtSellCurrency`, `DateTime`, `Brokerage`) VALUES ('RBREW.CO', '-30', '851', 'DKK', '2021-08-03 01:01:01', '29');
+UPDATE `StockRates`.`StockDetails` SET `CanBeIgnored` = '1' WHERE (`Id` = '26');
+INSERT INTO `StockRates`.`StockRatesInventoryTransactionDetails` (`StockCode`, `Number`, `TotalTransactionAmount`, `BoughtSellCurrency`, `DateTime`, `Brokerage`) VALUES ('NOVO-B.CO', '-44', '582.8', 'DKK', '2021-08-03 01:01:01', '29');
+UPDATE `StockRates`.`StockDetails` SET `CanBeIgnored` = '1' WHERE (`Id` = '4');
+INSERT INTO `StockRates`.`StockRatesInventoryTransactionDetails` (`StockCode`, `Number`, `TotalTransactionAmount`, `BoughtSellCurrency`, `DateTime`, `Brokerage`) VALUES ('TOP.CO', '-75', '319.8', 'DKK', '2021-08-03 01:01:01', '29');
+UPDATE `StockRates`.`StockDetails` SET `CanBeIgnored` = '1' WHERE (`Id` = '29');
+
+
+

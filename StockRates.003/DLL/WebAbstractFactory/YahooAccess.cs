@@ -5,6 +5,7 @@ using System.Net;
 using System.Threading;
 using System.Security.Cryptography.X509Certificates;
 using System.Net.Security;
+using System.Configuration;
 
 namespace StockRates._003.DLL
 {
@@ -279,7 +280,7 @@ namespace StockRates._003.DLL
             {
                 foreach (Stock stock in allMyStocks)
                 {
-                    Thread.Sleep(600);
+                    Thread.Sleep(Convert.ToInt32(ConfigurationManager.AppSettings["QueryDelay"]));
                     Console.WriteLine("Now trying to fetch " + stock.StockCode + " from yahoo finance!");
 
                     string stockRateAsString = GetIndiviualStockRate(stock.StockCode, testNo);

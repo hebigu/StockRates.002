@@ -17,10 +17,19 @@ namespace StockRates._003
 
             currencyRates = GetCurrencyListFromWeb(out currencyDate);
 
+            var EurInDkkValue = currencyRates.First(kvp => kvp.Key.Equals("DKK")).Value;
+
             switch (currencySign)
             {
+                case "SEK":
+                    currencyValue = EurInDkkValue / currencyRates.First(kvp => kvp.Key.Equals("SEK")).Value;
+                    break;
                 case "EUR":
                     currencyValue = currencyRates.First(kvp => kvp.Key.Equals("DKK")).Value;
+                    break;
+                case "USD":
+                    EurInDkkValue = currencyRates.First(kvp => kvp.Key.Equals("DKK")).Value;
+                    currencyValue = EurInDkkValue / currencyRates.First(kvp => kvp.Key.Equals("USD")).Value;
                     break;
             }
             return currencyValue;
