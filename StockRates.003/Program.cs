@@ -12,7 +12,7 @@ namespace StockRates._003
         {
             var container = new WindsorContainer();
 
-            Console.WriteLine(DateTime.Now + " StockRates version 2.29.07");
+            Console.WriteLine(DateTime.Now + " StockRates version 2.29.08");
             if (args.Length >= 1)
             {
                 switch (args[0])

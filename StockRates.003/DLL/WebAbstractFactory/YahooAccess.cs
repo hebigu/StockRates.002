@@ -204,7 +204,7 @@ namespace StockRates._003.DLL
 
             if (testNo == 0)
             {
-                string baseUrl = @"https://finance.yahoo.com/quote/@?p=@";
+                string baseUrl = @"https://finance.yahoo.com/quote/@?p=@&.tsrc=fin-srch";
 
                 string url = baseUrl.Replace("@", stockName);
 
