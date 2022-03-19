@@ -24,6 +24,9 @@ namespace StockRates._003
                 case "SEK":
                     currencyValue = EurInDkkValue / currencyRates.First(kvp => kvp.Key.Equals("SEK")).Value;
                     break;
+                case "NOK":
+                    currencyValue = EurInDkkValue / currencyRates.First(kvp => kvp.Key.Equals("NOK")).Value;
+                    break;
                 case "EUR":
                     currencyValue = currencyRates.First(kvp => kvp.Key.Equals("DKK")).Value;
                     break;
